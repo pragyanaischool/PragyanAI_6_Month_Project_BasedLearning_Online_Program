@@ -198,7 +198,7 @@ def get_program_video_urls():
     configured = get_setting("YOUTUBE_VIDEO_URLS")
     if not configured:
         # Default PragyanAI program video supplied by the user.
-        return ["https://youtu.be/Xx9C_eqc3uI"]
+        return ["https://youtu.be/kGwNcgasu18"]
 
     if isinstance(configured, (list, tuple)):
         return [str(item).strip() for item in configured if str(item).strip()]
